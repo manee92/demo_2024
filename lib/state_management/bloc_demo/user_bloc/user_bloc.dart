@@ -7,7 +7,6 @@ import 'user_state.dart';
 class UserListBloc extends Bloc<UserListEvent, UserListState> {
   final UserRepository userRepository;
 
-
   UserListBloc({required this.userRepository}) : super(UserListInitial()) {
 
     on<LoadUserList>((event, emit) async {

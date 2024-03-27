@@ -44,6 +44,8 @@ dependencies:
   path_provider: ^2.1.1
   uuid: ^4.2.2
   http: ^1.2.1
+  google_generative_ai: ^0.2.2
+  number_to_words_english: ^2.0.2
 
   flutter_bloc: ^8.1.4
 

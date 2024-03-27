@@ -10,11 +10,6 @@ class UserRepository {
         .get(Uri.parse('https://jsonplaceholder.typicode.com/users'));
 
     if (response.statusCode == 200) {
-      // If the server did return a 200 OK response,
-      // then parse the JSON.
-      print(response.body);
-      // final List<User> result = jsonDecode(response.body).map((e) => User.fromJson(e)).toList();
-      // return result;
       final result = json.decode(response.body).cast<Map<String, dynamic>>().map<User>((json) {
         return User.fromJson(json);
       }).toList();
