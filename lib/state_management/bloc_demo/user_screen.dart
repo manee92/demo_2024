@@ -74,7 +74,7 @@ class _MyHomePageState extends State<MyHomePage> {
             return const ErrorScreen();
           }
         },
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+      ),
     );
   }
 }

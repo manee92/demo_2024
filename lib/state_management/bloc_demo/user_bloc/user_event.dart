@@ -7,5 +7,4 @@ abstract class UserListEvent {
 
 class LoadUserList extends UserListEvent {
   const LoadUserList();
-  List<Object?> get props => [];
 }

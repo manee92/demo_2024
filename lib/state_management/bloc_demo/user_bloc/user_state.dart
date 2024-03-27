@@ -1,5 +1,5 @@
-import 'package:calendar_app/state_management/bloc_demo/user_model.dart';
 import 'package:flutter/material.dart';
+import 'package:calendar_app/state_management/bloc_demo/user_model.dart';
 
 @immutable
 abstract class UserListState {}
