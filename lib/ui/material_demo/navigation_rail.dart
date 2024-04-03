@@ -25,7 +25,7 @@ class NavRailExample extends StatefulWidget {
 class _NavRailExampleState extends State<NavRailExample> {
   int _selectedIndex = 0;
   NavigationRailLabelType labelType = NavigationRailLabelType.all;
-  double groupAlignment = 0.0;
+  double groupAlignment = 1.0;
   bool isMobile = true;
 
   @override
