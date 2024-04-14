@@ -42,12 +42,20 @@ dependencies:
   image_picker: ^1.0.5
   open_filex: ^4.3.4
   path_provider: ^2.1.1
-  uuid: ^4.2.2
+  uuid: ^4.3.3
   http: ^1.2.1
-  google_generative_ai: ^0.2.2
   number_to_words_english: ^2.0.2
-
   flutter_bloc: ^8.1.4
+
+  firebase_core: ^2.27.1
+  cloud_firestore: ^4.15.9
+  firebase_storage: ^11.6.10
+  firebase_auth: ^4.17.9
+  google_sign_in: ^6.2.1
+
+  flutter_riverpod: ^2.5.1
+  flutter_dotenv: ^5.1.0
+  google_generative_ai: ^0.2.2
 
 dev_dependencies:
   flutter_test:
@@ -75,6 +83,8 @@ flutter:
   assets:
     - assets/
     - assets/animals/
+    - .env
+
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
