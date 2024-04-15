@@ -9,7 +9,10 @@ class CheckboxExampleApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(colorSchemeSeed: const Color(0xffffdbc9)),
+      theme: ThemeData(
+          colorSchemeSeed: const Color(0xffffdbc9),
+        brightness: Brightness.light
+      ),
       title: 'Checkbox Sample',
       home: Scaffold(
         appBar: AppBar(title: const Text('Spicy Crispy Chicken Burger')),
